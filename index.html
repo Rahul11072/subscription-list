@@ -51,17 +51,26 @@
     }
 
     /* Hint: What can you do with a media query and flexbox? */
-    @media (max-width:1250px) {
+    @media (max-width:1000px) {
       .pricing-container{
         align-items: center;
         flex-direction: column;
         width: auto;
-        gap: 30px;
+        gap: 40px;
         margin-top: 250px;
       }
       .pricing-container>*{
-        width: 40%;
-        height:40vh;
+        width: 30%;
+        height:auto;
+      }
+      .plan-price{
+        font-size: 30px;
+      }
+      .plan-title{
+        font-size: 15px;
+      }
+      li{
+        font-size: 12.5px;
       }
       
     }
